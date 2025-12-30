@@ -1,4 +1,4 @@
-
+import {cart} from '../data/cart';
 
 let productHTML = '';
 
@@ -91,7 +91,7 @@ document.querySelectorAll('.js-addToCart-btn')
 
       document.querySelector('.js-cartQuantity')
         .innerHTML = cartQuantity;
-        
+
       console.log(cartQuantity);
       console.log(cart);
     })
